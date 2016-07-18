@@ -1,6 +1,6 @@
 [package]
 name = "iron-login"
-version = "0.4.1"
+version = "0.5.0"
 
 authors = ["Markus Unterwaditzer <markus@unterwaditzer.net>"]
 license = "MIT"
@@ -12,9 +12,9 @@ repository = "https://github.com/untitaker/iron-login"
 homepage = "https://github.com/untitaker/iron-login"
 
 [dependencies]
-iron = "0.3"
-oven = "0.3"
-persistent = "0.1"
+iron = "0.4"
+oven = { version = "0.4", git = "https://github.com/flosse/oven.git", branch = "iron-0.4" }
+persistent = { version = "0.1", git = "https://github.com/kangaroody/persistent" }
 
 [dependencies.cookie]
 version = "0.2"
